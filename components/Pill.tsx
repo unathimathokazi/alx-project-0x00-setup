@@ -1,0 +1,1 @@
+// Pill component placeholder

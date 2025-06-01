@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "alx-project-0x00",
+=======
+  "name": "alx-project-0x01",
+>>>>>>> 31de247 (Initial commit from Create Next App)
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,7 +15,11 @@
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+<<<<<<< HEAD
     "next": "15.3.2"
+=======
+    "next": "15.3.3"
+>>>>>>> 31de247 (Initial commit from Create Next App)
   },
   "devDependencies": {
     "typescript": "^5",
@@ -21,7 +29,11 @@
     "@tailwindcss/postcss": "^4",
     "tailwindcss": "^4",
     "eslint": "^9",
+<<<<<<< HEAD
     "eslint-config-next": "15.3.2",
+=======
+    "eslint-config-next": "15.3.3",
+>>>>>>> 31de247 (Initial commit from Create Next App)
     "@eslint/eslintrc": "^3"
   }
 }

@@ -1,18 +1,11 @@
-<<<<<<< HEAD
-// Pill component placeholder
-=======
-interface PillProps {
-  label: string;
+import { PillProps } from "@/interfaces";
+
+const Pill: React.FC<PillProps> = ({ title }) => {
+  return (
+    <div className="flex justify-center items-center bg-[#F9F9F9] px-3 w-auto h-[27px] rounded-full">
+      <p className="text-sm">{title}</p>
+    </div>
+  )
 }
 
-const Pill = ({ label }: PillProps) => {
-  return (
-    <span className="bg-gray-200 text-gray-800 px-3 py-1 rounded-full text-sm">
-      {label}
-    </span>
-  );
-};
-
 export default Pill;
-
->>>>>>> a4834f3 (Add Pill component, interface, and required h1 text)

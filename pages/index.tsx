@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 const Home: React.FC = () => {
   return (
@@ -13,6 +14,9 @@ const Home: React.FC = () => {
 export default Home;
 
 import Image from "next/image";
+=======
+        <Imageimport Image from "next/image";
+>>>>>>> a4834f3 (Add Pill component, interface, and required h1 text)
 import { Geist, Geist_Mono } from "next/font/google";
 
 const geistSans = Geist({
